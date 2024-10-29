@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+        <form method="post" action="http://hebertphp.awardspace.us/recebe.php"&gt;>
+            <label for="login">Login</label>
+            <input type="text" id="login" name="login" required placeholder="Digite o login"><b>*</b><br>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required placeholder="Digite a senha">*<br>
+            <label for="data">Data</label>
+            <input type="datetime-local" id="data" name="data"><br>
+            <h2>Linguagens de Programação</h2>
+            <label for="php">PHP</label>
+            <input type="checkbox" name="php">PHP<br>
+            <label for="js">Java Script</label>
+            <input type="checkbox" name="js" checked>JS<br>
+            <label for="sql">SQL</label>
+            <input type="checkbox" name="sql">SQL<br>
+            <label for="aula_segunda"> Segunda-Feira</label>
+            <input type="radio" name="aula_dia" id="aula_segunda" value="Segunda-Feira" checked>
+            <label for="aula_terca"> Terça-Feira</label>
+            <input type="radio" name="aula_dia" id="aula_terca" value="Terça-Feira">
+            <label for="aula_quarta"> Quarta-Feira</label>
+            <input type="radio" name="aula_dia" id="aula_quarta" value="Quarta-Feira">
+            <label for="aula_quinta"> Quinta-Feira</label>
+            <input type="radio" name="aula_dia" id="aula_quinta" value="Quinta-Feira">
+            <label for="aula_sexta"> Sexta-Feira</label>
+            <input type="radio" name="aula_dia" id="aula_sexta" value="Sexta-Feira"><br>
+            <label for="uf">UF</label>
+            <select name="uf">
+                <option>RJ</option>
+                <option>MG</option>
+                <option selected>SP</option>
+                <option>ES</option>
+            </select>
+            <input type="reset" id="limpar" value="Limpar">
+            <input type="hidden" name="val" value="Este formulário é um teste">
+            <input type="submit" id="enviar" value="Enviar!">
+        </form>
+    <p>Campo Obrigatório*</p>
+</body>
+</html>

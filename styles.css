@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(52, 41, 41);
+    color: white;
+}
+#login, #senha, #data {
+    margin: 5px;
+    width: 160px;
+
+}
+#limpar, #enviar {
+    margin: 5px;
+}
